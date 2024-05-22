@@ -1,0 +1,25 @@
+.primary-btn {
+  background-image: linear-gradient(to right, #71d16c, #27d38e);
+}
+
+.primary-btn:hover {
+  transition: all;
+  background-image: linear-gradient(to right, #27d38e, #71d16c);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #aaaaaa4d;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: #fc8853; */
+  background: #9a9a9a89;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.5;
+}
